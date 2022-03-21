@@ -1,0 +1,173 @@
+body {
+    background: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 260px auto;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media all and (min-width: 375px) {
+    .container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 327px;
+        height: 512px;
+        border-radius: 10px;
+        box-shadow: 10px;
+        margin: auto;
+    }
+    
+    .left-content img {
+        width: 327px;
+        height: 200px;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .text h1 {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 142%;
+        letter-spacing: 1%;
+        color: hsl(217, 19%, 35%);
+        margin: 37px 35px 0 35px;
+    }
+    
+    .text p {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 164%;
+        letter-spacing: 3%;
+        color: hsl(214, 17%, 51%);
+        margin: 14px 44px 0 35px;
+    }
+    
+    .profile {
+        width: 262px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 33px 35px 0 35px;
+    }
+
+    .profile-picture img{
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .name {
+        margin-left: 16px;
+    }
+
+    .name h1 {
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 5%;
+        color: hsl(217, 19%, 35%);
+    }
+    
+    .name p {
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 2%;
+        color: hsl(214, 17%, 51%);
+    }
+    
+    .share-icon {
+        cursor: pointer;
+        background: hsl(210, 46%, 95%) url(./images/icon-share.svg) no-repeat center;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        margin-left: 60px;
+    }
+}
+
+@media all and (min-width: 1080px) {
+    .container {
+        background: white;
+        display: flex;
+        flex-direction: row;
+        width: 730px;
+        height: 280px;
+        border-radius: 10px;
+        box-shadow: 10px;
+        margin: auto;
+    }
+        
+    .left-content img {
+        width: 285px;
+        height: 280px;
+        border-radius: 10px 0 0 10px;
+    }
+        
+    .text h1 {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 140%;
+        letter-spacing: 1%;
+        color: hsl(217, 19%, 35%);
+        margin: 33px 60px 12px 40px;
+     }
+        
+    .text p {
+         font-size: 12px;
+         font-weight: bold;
+         line-height: 162%;
+         letter-spacing: 3%;
+         color: hsl(214, 17%, 51%);
+         margin: 0 64px 23px 40px;
+     }
+        
+    .profile {
+        width: 364px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 60px 0 40px;
+    }
+        
+    .profile-picture img{
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+    }
+        
+    .name h1 {
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 5%;
+        color: hsl(217, 19%, 35%);
+    }
+       
+    .name p {
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 2%;
+        color: hsl(214, 17%, 51%);
+    }
+        
+    .share-icon {
+        cursor: pointer;
+        background: hsl(210, 46%, 95%) url(./images/icon-share.svg) no-repeat center;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        margin-left: 160px;
+    }
+}
